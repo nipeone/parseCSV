@@ -43,7 +43,10 @@ func main() {
 			}
 
 		}
-		if k > 0 {
+		if k == 1 {
+			fmt.Println(record)
+		}
+		if k > 1 {
 
 			// tmp := strings.Split(record[0], " ")
 			// fmt.Println(tmp)
